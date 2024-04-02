@@ -1,0 +1,1987 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "73ff9b8f-2b52-4548-b09c-c7a77eef92cd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "3-282836-2:3-282836-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "3-282836-2"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "3-282836-2"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=3-282836-2&DocFormat=pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Terminal Blocks TERMI-BLOK PCB MOUNT 90 4P Ke"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3-282836-2"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "571-3-282836-2"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/3-282836-2?qs=kTKVN3NWb5HKrHoMyUSSow%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "3-282836-2"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3-282836-2/te-connectivity"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "3-282836-2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PIC32MX330F064H-I_PT:PIC32MX330F064H-I_PT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC2"
+				(at 101.6 6.3186 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PIC32MX330F064H-I_PT"
+				(at 101.6 3.7786 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "QFP50P1200X1200X120-64N"
+				(at 90.17 -61.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/PIC32MX330F064H-I_PT.pdf"
+				(at 90.17 -161.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MCU 32-bit MIPS32 M4K RISC 64KB Flash 2.5V/3.3V 64-Pin TQFP Tray"
+				(at -12.446 41.402 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 90.17 -361.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 90.17 -461.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PIC32MX330F064H-I/PT"
+				(at 90.17 -561.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "579-MX330F064H-I/PT"
+				(at 90.17 -661.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC32MX330F064H-I-PT?qs=AU9dwobXBbB0hbFfATwIGw%3D%3D"
+				(at 90.17 -761.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PIC32MX330F064H-I/PT"
+				(at 90.17 -861.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pic32mx330f064h-ipt/microchip-technology"
+				(at 90.17 -961.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PIC32MX330F064H-I_PT_1_1"
+				(rectangle
+					(start 5.08 25.4)
+					(end 88.9 -73.66)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "AN22/RPE5/PMD5/RE5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "AN5/C1INA/RPB5/RB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "AN4/C1INB/RB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "PGED3/AN3/C2INA/RPB3/RB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "PGEC3/AN2/C2INB/RPB2/RB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "PGEC1/VREF-/CVREF-/AN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "PGED1/VREF+/CVREF+/AN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -78.74 90)
+					(length 5.08)
+					(name "PGEC2/AN6/RPB6/RB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -78.74 90)
+					(length 5.08)
+					(name "PGED2/AN7/RPB7/CTED3/RB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -78.74 90)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "AN23/PMD6/RE6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -78.74 90)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -78.74 90)
+					(length 5.08)
+					(name "AN8/RPB8/CTED10/RB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -78.74 90)
+					(length 5.08)
+					(name "AN9/RPB9/CTED4/PMA7/RB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -78.74 90)
+					(length 5.08)
+					(name "TMS/CVREFOUT/AN10/RB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -78.74 90)
+					(length 5.08)
+					(name "TDO/AN11/PMA12/RB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 48.26 -78.74 90)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -78.74 90)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 53.34 -78.74 90)
+					(length 5.08)
+					(name "TCK/AN12/PMA11/RB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 55.88 -78.74 90)
+					(length 5.08)
+					(name "TDI/AN13/PMA10/RB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -78.74 90)
+					(length 5.08)
+					(name "AN14/RPB14/CTED5/PMA1/RB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "AN27/PMD7/RE7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -78.74 90)
+					(length 5.08)
+					(name "AN15/RPB15/PMA0/RB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 63.5 -78.74 90)
+					(length 5.08)
+					(name "SDA2/RPF4/PMA9/RF4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 66.04 -78.74 90)
+					(length 5.08)
+					(name "SCL2/RPF5/PMA8/RF5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -38.1 180)
+					(length 5.08)
+					(name "RPF3/RF3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -35.56 180)
+					(length 5.08)
+					(name "RPF2/RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -33.02 180)
+					(length 5.08)
+					(name "RPF6/SCK1/INT0/RF6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -30.48 180)
+					(length 5.08)
+					(name "SDA1/RG3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -27.94 180)
+					(length 5.08)
+					(name "SCL1/RG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -25.4 180)
+					(length 5.08)
+					(name "VDD_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -22.86 180)
+					(length 5.08)
+					(name "OSC1/CLKI/RC12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "AN16/C1IND/RPG6/SCK2/PMA5/RG6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -20.32 180)
+					(length 5.08)
+					(name "OSC2/CLKO/RC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -17.78 180)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -15.24 180)
+					(length 5.08)
+					(name "RPD8/RTCC/RD8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -12.7 180)
+					(length 5.08)
+					(name "RPD9/RD9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -10.16 180)
+					(length 5.08)
+					(name "RPD10/PMCS2/RD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -7.62 180)
+					(length 5.08)
+					(name "RPD11/PMCS1/RD11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -5.08 180)
+					(length 5.08)
+					(name "RPD0/RD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 -2.54 180)
+					(length 5.08)
+					(name "SOSCI/RPC13/RC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 93.98 0 180)
+					(length 5.08)
+					(name "SOSCO/RPC14/T1CK/RC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 66.04 30.48 270)
+					(length 5.08)
+					(name "AN24/RPD1/RD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "AN17/C1INC/RPG7/PMA4/RG7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 63.5 30.48 270)
+					(length 5.08)
+					(name "AN25/RPD2/RD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 30.48 270)
+					(length 5.08)
+					(name "AN26/RPD3/RD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 30.48 270)
+					(length 5.08)
+					(name "RPD4/PMWR/RD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 55.88 30.48 270)
+					(length 5.08)
+					(name "RPD5/PMRD/RD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 53.34 30.48 270)
+					(length 5.08)
+					(name "RD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 30.48 270)
+					(length 5.08)
+					(name "RD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 48.26 30.48 270)
+					(length 5.08)
+					(name "VCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 30.48 270)
+					(length 5.08)
+					(name "VDD_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 30.48 270)
+					(length 5.08)
+					(name "RPF0/RF0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 30.48 270)
+					(length 5.08)
+					(name "TRCLK/RPF1/RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "AN18/C2IND/RPG8/PMA3/RG8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 30.48 270)
+					(length 5.08)
+					(name "TRD0/PMD0/RE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 30.48 270)
+					(length 5.08)
+					(name "TRD1/PMD1/RE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 30.48 270)
+					(length 5.08)
+					(name "TRD2/AN20/PMD2/RE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 30.48 270)
+					(length 5.08)
+					(name "TRD3/RPE3/PMD3/RE3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 30.48 270)
+					(length 5.08)
+					(name "AN21/PMD4/RE4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "~{MCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "AN19/C2INC/RPG9/PMA2/RG9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "Schaltungstechnik Praktikum\nBetreuer: Richard Spiegelberg\n\nMoritz Schneider\nAdrian Martin"
+		(exclude_from_sim no)
+		(at 225.806 173.736 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "253fe319-72ec-4858-8750-a9e29d533280")
+	)
+	(symbol
+		(lib_id "PIC32MX330F064H-I_PT:PIC32MX330F064H-I_PT")
+		(at 83.82 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd807de-5b7b-43a3-982e-57d0b29a7af8")
+		(property "Reference" "IC2"
+			(at 166.624 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIC32MX330F064H-I_PT"
+			(at 166.624 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:QFP50P1200X1200X120-64N"
+			(at 173.99 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/PIC32MX330F064H-I_PT.pdf"
+			(at 173.99 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32-bit MIPS32 M4K RISC 64KB Flash 2.5V/3.3V 64-Pin TQFP Tray"
+			(at 71.374 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 173.99 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 173.99 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PIC32MX330F064H-I/PT"
+			(at 173.99 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "579-MX330F064H-I/PT"
+			(at 173.99 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC32MX330F064H-I-PT?qs=AU9dwobXBbB0hbFfATwIGw%3D%3D"
+			(at 173.99 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PIC32MX330F064H-I/PT"
+			(at 173.99 933.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pic32mx330f064h-ipt/microchip-technology"
+			(at 173.99 1033.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "f72d9cb5-e5a9-40cc-a1c8-b4d84cca9c41")
+		)
+		(pin "26"
+			(uuid "bff90a73-ac17-44a9-8f1a-652eed871f5e")
+		)
+		(pin "40"
+			(uuid "89311538-93ac-4b38-9f7a-958b0fb8c9fe")
+		)
+		(pin "45"
+			(uuid "29b24f62-df1b-4196-8a13-4c178e0360b0")
+		)
+		(pin "47"
+			(uuid "907a8783-2880-4ae5-aae3-a1f69e2d701f")
+		)
+		(pin "48"
+			(uuid "8e0205e7-c08d-4e73-8851-9a18f5fc6900")
+		)
+		(pin "1"
+			(uuid "d9b4bfc2-afef-4c1c-8e6a-b226203c3835")
+		)
+		(pin "16"
+			(uuid "aa2b0957-5d57-4f1e-bbeb-a8fd74783844")
+		)
+		(pin "15"
+			(uuid "54f986bb-d382-4b98-a3d1-2c1796661b85")
+		)
+		(pin "20"
+			(uuid "a0346c42-f442-414a-9264-02acfa8d4c32")
+		)
+		(pin "24"
+			(uuid "7b3e8943-5e35-4cce-aaac-465a461f3fa2")
+		)
+		(pin "27"
+			(uuid "76f1b696-6321-4da6-ba76-c2470bbddc79")
+		)
+		(pin "31"
+			(uuid "75ea01b8-45b0-4d05-8237-cad552af9d62")
+		)
+		(pin "50"
+			(uuid "2b96e1aa-8d73-4321-a830-c99aba1f3756")
+		)
+		(pin "36"
+			(uuid "2f49cda4-c373-4ba2-a5d6-d573a2531dca")
+		)
+		(pin "37"
+			(uuid "f8565f8f-b069-44fc-ad1d-756d20fed691")
+		)
+		(pin "21"
+			(uuid "f53f595c-8f1f-480a-9aeb-f97835bcfd07")
+		)
+		(pin "25"
+			(uuid "7550410f-5197-4014-b93d-f3e3e8ecb92d")
+		)
+		(pin "35"
+			(uuid "1efcbf60-2f14-4219-9b96-9348a20da21c")
+		)
+		(pin "23"
+			(uuid "8a0840e0-b54c-4c4d-95ed-ffbb705b516a")
+		)
+		(pin "10"
+			(uuid "e4fd3fa1-105c-431d-81e3-9b53e5df460b")
+		)
+		(pin "30"
+			(uuid "11599c60-b427-4157-8c6a-0de36ed6ec26")
+		)
+		(pin "29"
+			(uuid "3c8cf975-5645-4015-88fa-a114ea84220a")
+		)
+		(pin "28"
+			(uuid "d6ed9613-a72a-4335-8ab0-c52d8a2471a3")
+		)
+		(pin "22"
+			(uuid "e10f4d65-a583-4ade-a7a7-da2cf7b28262")
+		)
+		(pin "2"
+			(uuid "9f32cabc-c192-4cb0-8955-f72d0c92a787")
+		)
+		(pin "32"
+			(uuid "b66fb879-d338-4463-81ad-a35a42599a26")
+		)
+		(pin "38"
+			(uuid "82610fa9-cb70-4b1a-8c62-5cb5a1c17baf")
+		)
+		(pin "33"
+			(uuid "410f6ec8-daac-4810-bd71-36afc1903820")
+		)
+		(pin "34"
+			(uuid "12d3d324-0fbb-4a2f-80f0-9db141036fe1")
+		)
+		(pin "4"
+			(uuid "00829958-0bb2-49ef-abef-7d899216521a")
+		)
+		(pin "11"
+			(uuid "f94f21c5-fbc5-47a1-96c4-9493fb19458e")
+		)
+		(pin "13"
+			(uuid "8d8cdfc9-a912-4c3a-91c4-f1ca20518b65")
+		)
+		(pin "42"
+			(uuid "ad6788d7-cbf1-4541-ad48-ffc9c675eba3")
+		)
+		(pin "43"
+			(uuid "6bb5fd31-c104-4b74-b235-f9e4aa17cb50")
+		)
+		(pin "12"
+			(uuid "3bc0de71-b85d-4e3c-b6bf-eda7a18f36b0")
+		)
+		(pin "41"
+			(uuid "4ffbb69e-c615-4171-a27c-34ac51f27cb1")
+		)
+		(pin "44"
+			(uuid "309cf33f-84a2-49ce-a7ae-877eddf5f770")
+		)
+		(pin "46"
+			(uuid "2db08d4a-8d27-443c-8de6-86764be31508")
+		)
+		(pin "49"
+			(uuid "21cca319-3e07-45b7-bf61-8d943cde72b0")
+		)
+		(pin "3"
+			(uuid "1b25ffcf-5e5e-47a3-babc-18a53d992647")
+		)
+		(pin "5"
+			(uuid "616d836b-6948-41e4-8b04-968e1681fe1f")
+		)
+		(pin "14"
+			(uuid "115fcf64-17ea-4094-9c8c-7fe99f126d8e")
+		)
+		(pin "18"
+			(uuid "883d9421-45bc-4ff2-9313-3f4567505003")
+		)
+		(pin "39"
+			(uuid "3972c1e7-11c0-447f-9edd-bc3a13824313")
+		)
+		(pin "17"
+			(uuid "1b70f4a2-9480-4db9-881a-5659c75bd2f7")
+		)
+		(pin "62"
+			(uuid "a36b9c4d-4f16-4bb3-a6f0-ade50f186835")
+		)
+		(pin "61"
+			(uuid "f7c52250-9a96-4ee9-8cf5-f4f14e4cd1ff")
+		)
+		(pin "59"
+			(uuid "1a3aa9ea-05bb-4ecf-b51b-9dbf9cf7b215")
+		)
+		(pin "53"
+			(uuid "c26c5d88-ef57-4bf0-aae6-5c4d122c008c")
+		)
+		(pin "56"
+			(uuid "c464b1a9-3106-4d88-a4b0-4af486d03701")
+		)
+		(pin "8"
+			(uuid "4f246005-f7b0-467a-bb24-7c34feb724bd")
+		)
+		(pin "63"
+			(uuid "cdcb04ca-74e1-46b1-ad57-f6d2398a8fd5")
+		)
+		(pin "6"
+			(uuid "8f16a37e-f4e6-40e2-8b26-6ca32ed884eb")
+		)
+		(pin "60"
+			(uuid "3ecfddd1-5f3c-457a-bf74-490b52d3262d")
+		)
+		(pin "54"
+			(uuid "e5863387-25c6-464f-85d8-9503ce9cb8e6")
+		)
+		(pin "52"
+			(uuid "87f56c98-5970-4ca6-b62f-e0e8084e70e0")
+		)
+		(pin "7"
+			(uuid "b0df7a0d-9282-4a6b-85a7-4e77420a9b57")
+		)
+		(pin "51"
+			(uuid "aeebf417-2842-484c-9259-3b1871fc8b9a")
+		)
+		(pin "55"
+			(uuid "e71d65bf-f247-487e-83c1-f3431bf3206d")
+		)
+		(pin "58"
+			(uuid "74b2e1f9-0d34-402f-93a7-835b16524629")
+		)
+		(pin "64"
+			(uuid "b33090ed-de86-4afb-be2c-1349972cb843")
+		)
+		(pin "9"
+			(uuid "32a37e87-7966-4aee-8d12-68ba226c78c2")
+		)
+		(pin "57"
+			(uuid "de0568b3-6e84-4837-bb07-dee46e2782aa")
+		)
+		(instances
+			(project "WaterlevelSensoring"
+				(path "/58fa4baf-198f-4497-85e2-76fdef312f16/531ad409-6317-4444-90b8-196907f608b9"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-282836-2:3-282836-2")
+		(at 238.76 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e2a048-3b3d-4e61-b98f-33d6e7a59cd4")
+		(property "Reference" "J2"
+			(at 255.27 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sensor-Klemme"
+			(at 255.27 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3-282836-2"
+			(at 255.27 191.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=3-282836-2&DocFormat=pdf"
+			(at 255.27 291.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks TERMI-BLOK PCB MOUNT 90 4P Ke"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 255.27 491.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 255.27 591.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-282836-2"
+			(at 255.27 691.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-3-282836-2"
+			(at 255.27 791.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/3-282836-2?qs=kTKVN3NWb5HKrHoMyUSSow%3D%3D"
+			(at 255.27 891.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "3-282836-2"
+			(at 255.27 991.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3-282836-2/te-connectivity"
+			(at 255.27 1091.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92b2be7-b250-452f-8880-847fb997c59c")
+		)
+		(pin "4"
+			(uuid "e1559752-9f11-4e18-9eed-5dd9ba4e74f6")
+		)
+		(pin "3"
+			(uuid "dc426d73-28ae-498e-b466-9bb5b11560b6")
+		)
+		(pin "2"
+			(uuid "85999a8a-4bb5-483d-b36a-eac94e7871e2")
+		)
+		(instances
+			(project "WaterlevelSensoring"
+				(path "/58fa4baf-198f-4497-85e2-76fdef312f16/531ad409-6317-4444-90b8-196907f608b9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

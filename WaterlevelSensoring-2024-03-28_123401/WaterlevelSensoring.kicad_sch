@@ -1,0 +1,102 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "58fa4baf-198f-4497-85e2-76fdef312f16")
+	(paper "A4")
+	(lib_symbols)
+	(text "Schaltungstechnik Praktikum\nBetreuer: Richard Spiegelberg\n\nMoritz Schneider\nAdrian Martin"
+		(exclude_from_sim no)
+		(at 226.568 173.99 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "5ce68a0c-3977-4ade-b394-fbed34ced0ca")
+	)
+	(sheet
+		(at 21.59 74.93)
+		(size 69.85 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "531ad409-6317-4444-90b8-196907f608b9")
+		(property "Sheetname" "PIC32"
+			(at 21.59 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PIC32.kicad_sch"
+			(at 21.59 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WaterlevelSensoring"
+				(path "/58fa4baf-198f-4497-85e2-76fdef312f16"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 19.05)
+		(size 69.85 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "d943c0be-4ed5-428f-9632-9d4ba5e4cf22")
+		(property "Sheetname" "STKNX"
+			(at 20.32 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STKNX.kicad_sch"
+			(at 20.32 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WaterlevelSensoring"
+				(path "/58fa4baf-198f-4497-85e2-76fdef312f16"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
